@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  /* background-color: black; */
+
+}
+.header{
+    display: flex;
+    height: 68px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-bottom-color: #e8e8e1;
+  }
+  .Logo img{
+    width: 136px;
+    padding-top: 5px;
+  }
+  .Link{
+    color: black;
+    padding:0px 20px 0px 0px;
+    text-decoration: none;
+  }
+  #nav-box{
+    margin-top: 5px;
+  }
+#l-icon,#u-icon{
+  font-size: 20px;
+  color: black;
+
+}
+#searchingBar{
+    width: 465px;
+    height: 41px;
+}
+.header-3{
+  margin: auto 0;
+  padding-right: 10px;
+}

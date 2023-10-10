@@ -1,0 +1,420 @@
+.carousel img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.carousel{
+}
+.d-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.zip-care{
+    width:500px;
+    height: 163px;
+    margin: 0px 10px;
+}
+.federal-bank{
+    width: 500px;
+    height: 163px;
+}
+.zip-care img{
+    width: 100%;
+
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.436);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 100px;
+}
+
+/* section-2 */
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-1{
+    width: 100px;
+    border: 2px solid #ff4f33;
+    border-radius: 100%;
+    padding: 5px;
+
+}
+.img-1 img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #cccccc;
+
+}
+.heding-name h5{
+text-align: center; 
+font-size: 14.4px;
+color: #000000; 
+font-weight: 600; 
+}
+/* section-3 */
+
+.section-3{
+    border-top: 1px solid #e8e8e1;
+    border-bottom:1px solid #e8e8e1 ;
+    padding-top: 20px;
+}
+.title h1{
+    text-align: center;
+    font-size: 35px;
+}
+.title span{
+    color: #fa551a;
+}
+.groth img{
+    width: 80px;
+}
+.groth-title span{
+    font-size: 16px;
+}
+.groth-title h6{
+    color: #fa551a;
+    font-size: 14px;
+}
+.slide{
+    /* margin: 50px 0px; */
+    
+}
+.slider h5{
+    text-align: center;
+    padding:10px 30px 0px 0px;
+}
+.slider img{
+width: 100%;
+border-radius: 10px;
+border: 1px solid #fa551a;
+  
+}
+.title-watch{
+    padding-bottom: 30px;
+}
+
+.title-watch h1{
+
+    text-align: center;
+}
+.title-watch span{
+    color: #fa551a;
+}
+.Border{
+    width: 100px;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+/* section-5 */
+.catagory img{
+    width: 220px;
+    padding: 20px;
+}
+.shop-name h5{
+    text-align: center;
+    font-size: 20px;
+
+}
+/* section-6  */
+.launch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.recently-launch,.upcomming-launch span{
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+
+}
+.recently-launch span{
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+    padding-bottom:5px ;
+}
+
+ .main-img-box{
+    width: 27%;
+    margin: 0px 10px;
+}
+
+.launch-img{
+    background-color: #e4e4e4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.launch-img img{
+    width: 250px;
+    
+}
+.l-img-title{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    padding-right: 10px
+}
+.star span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.l-img-title h5{
+    color: #000;
+    
+}
+.l-img-title img{
+    width: 20px;
+}
+.color-part{
+    display: flex;
+
+}
+.blck{
+    width:25px;
+    height: 25px;
+    /* margin-top: 5px; */
+    margin-right: 5px;
+    border:2px solid #ccc;
+    border-radius: 100%;
+    background: linear-gradient(133deg, rgb(62 62 62) 47%, rgb(30 30 30) 53%);
+    
+}
+.creem{
+    width:25px;
+    /* margin-top: 5px; */
+    height: 25px;
+    border:2px solid #ccc;
+    border-radius: 100%;
+    background: linear-gradient(133deg, rgb(246 229 194) 47%, rgb(246 229 194) 53%);
+
+}
+.more span{
+    font-size: 17px;
+    font-weight: 600;
+
+
+
+}
+.amoled h6{
+    font-size: 10px;
+    letter-spacing: .3px;
+    padding-top: 5px;
+}
+.add-cart input{
+    width: 97px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fa551a;
+    border-radius: 0px;
+    
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+}
+.price h6{
+    padding-top: 7px;
+}
+/* section-8 */
+.section-8{
+    border-bottom: 1px solid #ccc;
+}
+.section-8 img{
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+}
+.blog h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.blog h5{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+/* section-9 */
+.smart-watch{
+    width: 25%;
+    padding: 15px;
+}
+.smart-watch img{
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.blog-name h3{
+    /* text-align: center; */
+    font-size: 18px;
+    padding-top: 10px;
+}
+.read-all{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-all button{
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    padding:4px 18px;
+}
+/* section-10  */
+.section-10{
+    border-bottom: 1px solid #ccc;
+}
+
+.w25{
+    width: 25%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w25 img{
+    width: 200px;
+}
+.press-img{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.partner img{
+    width: 150px;
+
+}
+/* section-11  */
+.section-11{
+    border-bottom: 1px solid #ccc;
+
+}
+.w20{
+    width: 25%;
+    height: 270px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.medal-img{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+
+}
+
+.medal-img img{
+    width: 80px;
+    object-fit: cover;
+    
+}
+.ex-heading{
+    width: 30%;
+}
+.ex-heading span{
+    font-size: 32px;
+    font-weight: 600;
+    font-family:sans-serif;
+}
+.ex-heading del{
+    font-size: 30px;
+    font-weight: 600;
+    color: #8e8e8e;
+    letter-spacing: 2px;
+}
+.medal-descrip p{
+    color: black;
+    text-align: start;
+    font-size: 15px;
+}
+.medal-descrip strong{
+    font-size: 20px;
+}
+/* footer section  */
+
+.follous h3{
+    font-size: 20px;
+    margin: 30px 0px 0px 5px;
+}
+.footer{
+    padding-top: 40px;
+}
+footer{
+background-color: #f9f6ee;
+border-top: 1px solid #ccc;
+
+}
+.footer-logo{
+    margin-bottom: 60px;
+}
+.facbook-icon{
+    padding:12px 0px;
+    font-size: 16px;
+
+}
+#facbook,#instagram,#youtub{
+    font-size:30px ;
+    margin-right: 7px;
+}
+.products h3{
+    margin-left: 27px;
+    font-weight: 600;
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+    line-height: 30px;
+
+}
+ul li a{
+    color:#030303;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.collection{
+    font-weight: 600;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.copyright{
+    border-top: 1px solid #ccc;
+    padding: 30px;
+}
+.copyright span{
+    display:flex;
+    justify-content: center;
+    color: #030303;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+    

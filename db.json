@@ -1,0 +1,52 @@
+{
+  "User": [
+    {
+      "name": "ravi",
+      "email": "raviparmar@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "parmar",
+      "email": "parmar@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Rparmar",
+      "email": "rp@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "login",
+      "email": "login@gmail.com",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "signup",
+      "email": "signup@gmail.com",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "rv parmar",
+      "email": "rvp@gmail.com",
+      "password": "123456789",
+      "id": 7
+    },
+    {
+      "name": "rv parmar",
+      "email": "rvp@gmail.com",
+      "password": "123456789",
+      "id": 8
+    }
+  ]
+}
