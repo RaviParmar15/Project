@@ -53,8 +53,11 @@ label{
     justify-content: center;
     align-items: center;
   }
+  #input-box span{
+    font-size: 15px;
+  }
   p{
-    font-size: 12px;
+    font-size: 15px;
     color: white;
     text-align: center;
     padding: 5px;

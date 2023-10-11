@@ -5,10 +5,10 @@ import Login from '../Pages/Login'
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { sucess } from "../Redux/Action";
+import { pageChange, sucess } from "../Redux/Action";
 // import Swal from 'sweetalert2'
 
-const SignUp = () => {
+const SignUp = ({setToggle,toggle}) => {
   const [name,setName]=useState("")
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
@@ -28,7 +28,9 @@ const SignUp = () => {
     axios.post(`http://localhost:5000/User`,user)
     .then((res)=>{
       dispatch(SignUp())
-      alert("Login success")
+        alert("Your Account Created!")
+
+      
     })
     .catch((err)=>{
       
@@ -58,9 +60,9 @@ const SignUp = () => {
               <input type="submit" className="Submit" value={"Continue"} />
               <p  style={{color:"#000000"}}>
               Already have an account? 
-                <a  href="" className=" Link fw-bold" style={{ color: "#000000",padding:"5px" }}>
+                <span onClick={()=>setToggle(!toggle)}  href="" className=" Link fw-bold" style={{ color: "#000000",padding:"5px",cursor:"pointer" }}>
                    Login
-                </a>
+                </span>
               </p>
             </Form>
           </div>

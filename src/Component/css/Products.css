@@ -1,0 +1,48 @@
+.fw-bolt{
+    font-weight: 700;
+}
+.products img{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.products h1{
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.products h5{
+    padding-top: 5px;
+}
+
+.details img{
+    width: 25%;
+    padding: 15px;
+    
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.details{
+    width: 700px;
+}
+.details h1{
+    font-size: 30px;
+    padding: 15px;
+}
+.details h5{
+    font-weight: 700;
+    padding: 15px;
+
+}
+.details h6{
+    padding: 15px;
+}
+.details span{
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+

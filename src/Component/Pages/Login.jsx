@@ -3,14 +3,15 @@ import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { Lodding } from "../Redux/Action";
-// import Swal from 'sweetalert2'
+import { Lodding, pageChange } from "../Redux/Action";
+import Swal from "sweetalert2";
 
-const Login = () => {
+const Login = ({setToggle,toggle}) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const val = useSelector(store => store);
+  // console.log(val)
   const dispatch = useDispatch();
   const HandleSubmit = (e) => {
     e.preventDefault();
@@ -20,13 +21,27 @@ const Login = () => {
         dispatch(Lodding(res.data[0]));
         if (res.data.length > 0) {
           if (res.data[0].email == email && res.data[0].password == password) {
-            alert("login success");
+            Swal.fire({
+              // position: 'center',
+              icon: 'success',
+              title: 'Login Success',
+              showConfirmButton: false,
+              timer: 1500
+            });
           } else {
-            alert("login failed");
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'Login failed ! Please try again',
+            });
            
           }
         } else {
-          alert("User Not Registered");
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'User Not Found! Please Create a new account',
+          });
         }
       })
       .catch((err) => {
@@ -57,13 +72,14 @@ const Login = () => {
               <input type="submit" className="Submit" value={"Continue"} />
               <p style={{ color: "#000000" }}>
                 Don't have an account yet?
-                <a
+                <span
                   href=""
                   className=" Link fw-bold"
-                  style={{ color: "#000000", padding: "5px" }}
+                  style={{ color: "#000000", padding: "5px",cursor:"pointer" }}
+                  onClick={()=>setToggle(!toggle)}
                 >
                   Create account
-                </a>
+                </span>
               </p>
             </Form>
           </div>

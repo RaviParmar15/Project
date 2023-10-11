@@ -1,9 +1,10 @@
-import {  LOGIN, SIGNUP } from "./ActionType";
+import {  LOGIN,  SIGNUP } from "./ActionType";
 
 const initialState ={
     isLoading: false,
     isError: false,
-    data:[]
+    data:[],
+    page : false
 }
 export const reducer =(state=initialState,{type,payload})=>{
     switch (type) {
@@ -18,6 +19,7 @@ export const reducer =(state=initialState,{type,payload})=>{
                     isLoading: false,
                     data: payload
                 }
+           
                
         default: return state
     }

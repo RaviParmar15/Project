@@ -52,8 +52,8 @@ const NavBar = () => {
             </Form> */}
           </div>
           <div className="header-3">
-            <Link className="Link" to='/signup'> Signup</Link>
-            <Link className="Link" to="login"><AiOutlineUser id="u-icon" /></Link>
+            {/* <Link className="Link" to='/signup'> Signup</Link> */}
+            <Link className="Link" to="/login"><AiOutlineUser id="u-icon" /></Link>
             <Link className="" id="l-icon"><BsHandbag/></Link>
           </div>
         </div>

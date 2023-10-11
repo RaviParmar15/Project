@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-  /* background-color: black; */
 
-}
 .header{
     display: flex;
     height: 68px;
@@ -28,7 +25,7 @@ header{
     margin-top: 5px;
   }
 #l-icon,#u-icon{
-  font-size: 20px;
+  font-size: 25px;
   color: black;
 
 }
