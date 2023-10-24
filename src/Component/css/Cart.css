@@ -1,0 +1,32 @@
+.cart-section{
+    width: 50%;
+} 
+ .products-count{
+    width: 150px; 
+    border: 1px solid rgba(180, 177, 177, 0.63);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.products-count span{
+    padding: 16px;
+    font-size: 20px;    
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-img{
+    margin-right: 20px;
+     
+}
+.cart-img img{
+    padding: 20px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+    border-radius: 15px;  
+
+}
+.cart-price{
+    margin-top: 10px;
+    padding-left: 25px;
+}

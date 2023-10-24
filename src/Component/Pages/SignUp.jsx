@@ -25,7 +25,7 @@ const SignUp = ({setToggle,toggle}) => {
       email:email,
       password:password,
     }
-    axios.post(`http://localhost:5000/User`,user)
+    axios.post(`https://firebolt-b3qw.onrender.com/User`,user)
     .then((res)=>{
       dispatch(SignUp())
         alert("Your Account Created!")

@@ -16,7 +16,7 @@ const Login = ({setToggle,toggle}) => {
   const HandleSubmit = (e) => {
     e.preventDefault();
     axios
-      .get(`http://localhost:5000/User?email=${email}`)
+      .get(`https://firebolt-b3qw.onrender.com/User?email=${email}`)
       .then((res) => {
         dispatch(Lodding(res.data[0]));
         if (res.data.length > 0) {

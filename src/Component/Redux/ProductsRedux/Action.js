@@ -3,19 +3,21 @@ import { ERROR, LOADING, SUCCESS } from "./ActionType"
 
 export const FetchingData = (dispatch) => {
     dispatch({ type: LOADING })
-    axios.get(`https://fakestoreapi.com/products`)
+    
+    axios.get(`https://firebolt-b3qw.onrender.com/Products`, {
+        mode: "no cors",
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        }
+    })
         .then((res) => {
-            console.log(res.data);;
-
-
-            dispatch({ type: SUCCESS,  payload: res.data })
+            console.log(res.data);
+            dispatch({ type: SUCCESS, payload: res.data })
 
         })
+
         .catch((err) => {
             console.log(err)
-            dispatch({type: ERROR,})
+            dispatch({ type: ERROR, })
         })
-
-
-
 }

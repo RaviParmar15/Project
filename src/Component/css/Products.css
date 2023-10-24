@@ -6,6 +6,8 @@
     display: flex;
     flex-wrap: wrap;   
 }
+.main-div{
+}
 .products h1{
     font-size: 20px;
     padding: 10px 0px;
@@ -14,10 +16,18 @@
 .products h5{
     padding-top: 5px;
 }
+.main-img-box{
+    width: 100%;
+    margin: auto;
+    padding: 15px;
 
+}
+.amoled{
+    text-align: start;
+}
 .details img{
     width: 25%;
-    padding: 15px;
+    height: 25%;
     
 
 }
@@ -45,4 +55,12 @@
     font-size: 20px;
     padding: 15px;
 }
+.pageNotFound h1,h6{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+
+
 

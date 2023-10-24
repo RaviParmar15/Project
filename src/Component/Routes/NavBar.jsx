@@ -24,7 +24,7 @@ const NavBar = () => {
       <header className="">
         <div className="header ">
           <div className="Logo">
-            <Link to="home">
+            <Link to="/">
               <img
                 src="https://www.fireboltt.com/cdn/shop/files/R9FECJR_150x.png?v=1667483533"
                 alt=""
@@ -54,7 +54,7 @@ const NavBar = () => {
           <div className="header-3">
             {/* <Link className="Link" to='/signup'> Signup</Link> */}
             <Link className="Link" to="/login"><AiOutlineUser id="u-icon" /></Link>
-            <Link className="" id="l-icon"><BsHandbag/></Link>
+            <Link className="" to="/cart" id="l-icon"><BsHandbag/></Link>
           </div>
         </div>
       </header>

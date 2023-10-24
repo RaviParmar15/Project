@@ -8,9 +8,9 @@ const LoginSignup = () => {
   return (
     <div>
       {toggle ? (
-        <SignUp toggle={toggle} setToggle={setToggle} />
-      ) : (
         <Login toggle={toggle} setToggle={setToggle} />
+      ) : (
+        <SignUp toggle={toggle} setToggle={setToggle} />  
       )}
     </div>
   );

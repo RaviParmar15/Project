@@ -38,6 +38,12 @@ const Home = () => {
                     alt=""
                   />
                 </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                  <img
+                    src="https://www.fireboltt.com/cdn/shop/files/Artboard_2_6f0eac7b-671b-490d-8020-927ecc034396_1759x.jpg?v=1697092223 "
+                    alt=""
+                  />
+                </Carousel.Item>
               </Carousel>
             </Col>
           </Row>
@@ -364,14 +370,13 @@ const Home = () => {
             <img src="https://www.fireboltt.com/cdn/shop/files/apollo-3-black_1_360x.png?v=1694778271" alt="" />
           </div>
           <div className="l-img-title ">
-            <div className="appollo"><h5>Apollo 3</h5></div>
+            <div className="appollo "><h5>Apollo 3</h5></div>
             <div className="star">
             <img src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-star-icon-png-image_4231909.jpg" alt="" />
             <span className="">4.6</span>
-
             </div>
           </div>
-          <div className="color-part ">
+          <div className="color-part  ">
             <div className="blck"></div>
             <div className="creem"></div>
             <div className="more"><span>+ 2 more </span></div>
@@ -387,7 +392,7 @@ const Home = () => {
             <img src="https://www.fireboltt.com/cdn/shop/files/phoenix-amoled-ultra-ace-black_1_540x.png?v=1693887757" alt="" />
           </div>
           <div className="l-img-title ">
-            <div className="appollo"><h5>Phoenix AMOLED Ultra Ace</h5></div>
+            <div className="appollo"><h5>Phoenix AMOLED Ultra</h5></div>
             <div className="star">
             <img src="https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-star-icon-png-image_4231909.jpg" alt="" />
             <span className="">4.8</span>
@@ -407,7 +412,7 @@ const Home = () => {
           </div>
           <div className="main-img-box">
           <div className="launch-img">
-            <img src="https://www.fireboltt.com/cdn/shop/files/apollo-3-black_1_360x.png?v=1694778271" alt="" />
+            <img src="https://www.fireboltt.com/cdn/shop/files/blacksteel_00_360x.png?v=1693909826" alt="" />
           </div>
           <div className="l-img-title ">
             <div className="appollo"><h5>Encore</h5></div>
@@ -430,7 +435,7 @@ const Home = () => {
           </div>
           <div className="main-img-box">
           <div className="launch-img">
-            <img src="https://www.fireboltt.com/cdn/shop/files/apollo-3-black_1_360x.png?v=1694778271" alt="" />
+            <img src="https://www.fireboltt.com/cdn/shop/files/avalanche_Black_01_360x.png?v=1695112152" alt="" />
           </div>
           <div className="l-img-title ">
             <div className="appollo"><h5>Avalanche</h5></div>

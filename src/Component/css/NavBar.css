@@ -24,7 +24,12 @@
   #nav-box{
     margin-top: 5px;
   }
-#l-icon,#u-icon{
+#l-icon{
+  font-size: 22px;
+  color: black;
+
+}
+#u-icon{
   font-size: 25px;
   color: black;
 

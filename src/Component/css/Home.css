@@ -140,7 +140,7 @@ border: 1px solid #fa551a;
 }
 .recently-launch span{
     font-weight: 600;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
     padding-bottom:5px ;
 }
 
@@ -151,6 +151,7 @@ border: 1px solid #fa551a;
 
 .launch-img{
     background-color: #e4e4e4;
+    padding: 15px;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -158,14 +159,19 @@ border: 1px solid #fa551a;
 }
 .launch-img img{
     width: 250px;
+    height: 250px;
+    object-fit: cover;
     
 }
 .l-img-title{
     display: flex;
     justify-content: space-between;
 }
+.a
 .star{
-    padding-right: 10px
+    padding-right: 10px;
+    margin-top: 10px;
+    
 }
 .star span{
     font-size: 15px;
@@ -183,10 +189,11 @@ border: 1px solid #fa551a;
     display: flex;
 
 }
+
 .blck{
     width:25px;
     height: 25px;
-    /* margin-top: 5px; */
+    margin-top: 5px;
     margin-right: 5px;
     border:2px solid #ccc;
     border-radius: 100%;
@@ -195,11 +202,15 @@ border: 1px solid #fa551a;
 }
 .creem{
     width:25px;
-    /* margin-top: 5px; */
+    margin-top: 5px;
     height: 25px;
     border:2px solid #ccc;
     border-radius: 100%;
     background: linear-gradient(133deg, rgb(246 229 194) 47%, rgb(246 229 194) 53%);
+
+}
+.more{
+    margin-top: 4px;
 
 }
 .more span{
@@ -209,10 +220,16 @@ border: 1px solid #fa551a;
 
 
 }
+.appollo h5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
 .amoled h6{
+    text-align: start;
     font-size: 10px;
     letter-spacing: .3px;
-    padding-top: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
 }
 .add-cart input{
     width: 97px;
@@ -230,6 +247,7 @@ border: 1px solid #fa551a;
 }
 .price h6{
     padding-top: 7px;
+    padding-left: 5px;
 }
 /* section-8 */
 .section-8{
