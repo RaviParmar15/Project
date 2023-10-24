@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .main-box{
+  width: 100%;
+  height: 100%;
+} */
+
+input{
+    width: 562.4px;
+    height: 48.4px;
+    display: block;
+    /* background-color: transparent; */
+    /* color: white; */
+    border: 1px solid #e8e8e1;
+    border-radius: 5px;
+
+}
+
+.Submit{
+    background-color: #000000;
+    border: none;
+    color:white;
+    margin-top: 20px;
+    font-weight: 700;
+
+}
+label{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+.Login-box{
+    width: 525px;
+    height: 470px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+  #Input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #input-box span{
+    font-size: 15px;
+  }
+  p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  .l h4{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .s span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    
+  }
+  .Heading-box{
+    padding-top: 25px;
+    margin: auto;
+
+  }
+  .Heading-box h1{
+    
+    
+  }
+ 
+

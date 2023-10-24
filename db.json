@@ -1,0 +1,353 @@
+{
+  "User": [
+    {
+      "name": "ravi",
+      "email": "raviparmar@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "parmar",
+      "email": "parmar@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "ravi",
+      "email": "ravi@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Rparmar",
+      "email": "rp@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "login",
+      "email": "login@gmail.com",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "signup",
+      "email": "signup@gmail.com",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "rv parmar",
+      "email": "rvp@gmail.com",
+      "password": "123456789",
+      "id": 7
+    },
+    {
+      "name": "rv parmar",
+      "email": "rvp@gmail.com",
+      "password": "123456789",
+      "id": 8
+    },
+    {
+      "name": "pr",
+      "email": "pr@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "pr",
+      "email": "pr@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "pr",
+      "email": "pr@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "v",
+      "email": "v.@gmail.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "name": "vr",
+      "email": "vr@gmail.com",
+      "password": "456",
+      "id": 13
+    },
+    {
+      "name": "vr",
+      "email": "vr@gmail.com",
+      "password": "456",
+      "id": 14
+    }
+  ],
+  "Products" :[
+    {
+      "id":1,
+      "name":"Talk 2",
+      "price": 1299,
+      "description":"hop for Fire-Boltt Talk 2 smartwatch with Bluetooth calling so you directly talk through your watch.  Smart features- voice assistant, 60 sports modes, SpO2 Monitoring to check the oxygen level in your blood, a metal case to make it robust, and IP68 water-resistant.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/talk2-black_1_400x.png?v=1653643544",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/3-display_02affdba-8d0f-4133-bda8-e683bfba09fd.gif?v=1668163955",
+      "description-2":"The circular design and rounded screen of Fire-Boltt Talk 2 offers a royal look and classic feel while the stunning 32mm (1.28-inch) HD display with 240*240 pixels resolution pushes smart watch design into a bright future, right before your eyes",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":2,
+      "name":"Ninja 3 Plus",
+      "price": 999,
+      "description":"Fire-Boltt Ninja 3 Plus features a 1.83 HD display 200 mAh battery capacity 118 sports modes inbuilt gamesvoice assistant and much more",
+      "images":"https://www.fireboltt.com/cdn/shop/products/ninja-3-plus-2_400x.png?v=1682363784",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/ninja-3-plus_02_4e6a0991-6181-4453-aa4b-d8c39664bfc3.jpg?v=1682397871",
+      "description-2":"",
+      "rating":4.7
+
+
+    },
+    {
+      "id":3,
+      "name":"Dazzle Plus",
+      "price": 1399,
+      "description":"Fire-Boltt Dazzle Plus Smartwatch with a large 46mm (1.81 Inch) Full Touch Display, 60 Sports Modes, IP68 Rating, SpO2 Tracking, Over 100 Cloud Based Watch Faces and more.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/dazzle-plus-black_1_400x.png?v=1676010264",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/dazzle-plus_8.png?v=1669730656",
+      "description-2":"No need to worry about running out of battery anymore! Fire-Boltt Dazzle Plus can sustain for 5-8 days in Normal Mode and around 30 days in stand-by mode.",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":4,
+      "name":"TALK",
+      "price": 1399,
+      "description":"Fire-Boltt TALK- India’s first Bluetooth calling smartwatch featuring SpO2 Monitor, HR Monitoring, and Sedentary Alerts",
+      "images":"https://www.fireboltt.com/cdn/shop/products/9_784ecf3b-624c-407b-92de-aed237ba6125_360x.png?v=1638004570",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/fireboltt-bsw004-34.mp4?v=1624706115",
+      "description-2":"Be in a sound body and mind with a watch that cares for both. Follow the suggested meditative breathing exercises to get some peace of mind. It is important to keep your stress levels in check to avoid both physical and mental burnout. When you find yourself bogged down by the hustle, take a quick time out by triggering the meditative Breathing Mode. Indulge in some guided deep breathing exercises to unwind and regenerate.",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":5,
+      "name":"Legacy",
+      "price": 2499,
+      "description":"Fireboltt Legacy - A Luxurious & Feature rich smartwatch Featuring a 36.3mm (1.43) AMOLED Display with wireless charging and much more",
+      "images":"https://www.fireboltt.com/cdn/shop/products/BM2_360x.png?v=1685345649",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/Legacy_desktop07_f6d6e584-d331-43a1-9f51-9e8033cf9217.jpg?v=1691647482",
+      "description-2":"",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":6,
+      "name":"Invincible Plus",
+      "price": 34499,
+      "description":"Fire-Boltt is introducing the ultimate luxury smartwatch - INVINCIBLE PLUS - a true masterpiece of technology and design featuring an AMOLED Display, Bluetooth calling, 4 GB storage, and much more!",
+      "images":"https://www.fireboltt.com/cdn/shop/products/Untitled-1Artboard-8_360x.png?v=1678186270",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/web1_copy.jpg?v=1694025837",
+      "description-2":"",    
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":7,
+      "name":"Quantum",
+      "price": 1999,
+      "description":"Fire-Boltt Quantum is the ultimate fashion accessory for modern trendsetters. This smartwatch is designed selectively that combines the latest technology with timeless elegance. The metal chain strap gives you a secure fit while the full-color touchscreen display keeps you connected on the go.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/quantum-green_1_360x.png?v=1685365655",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/Quantum-desktop_2_9965e760-686e-450d-8706-406862959a09.jpg?v=1685364094",
+      "description-2":"",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":8,
+      "name":"Epic Plus",
+      "price": 999,
+      "description":"Shop for Fire-Boltt Epic plus that comes with a 1.83″ HD Display, IP67 water resistance, female health care, SpO2 monitoring, weather updates, camera control, and music control",
+      "images":"https://www.fireboltt.com/cdn/shop/products/epic-plus-black_1_400x.png?v=1671192278",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/epic-plus-4-health.png?v=1671195664",
+      "description-2":"Track your own Oxygen levels. Be aware of the changing levels of oxygen in your blood and take the right steps in advance to keep it balanced.",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":9,
+      "name":"Ninja Fit",
+      "price": 1099,
+      "description":"Introducing Fire-Boltt Ninja Fit, an ultimate fitness companion. With our cutting-edge technology, the way you track and achieve your fitness goals will be changed for always.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/ninja-fit-black_1_360x.png?v=1683185247",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/ninja-fit-1.gif?v=1675073094",
+      "description-2":"View bigger on the screen with our largest 42.9mm (1.69”) HD display covering every edge possible with a design that gives you the best screen experience ever on a smartwatch.",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":10,
+      "name":"Fire-Boltt Cobra",
+      "price": 1999,
+      "description":"FireBoltt Cobra is the pinnacle of a rugged and sturdy Smartwatch. Backed by advanced technology to tackle outdoor activities with ease. It features an AMOLED Display with Bluetooth calling and tons of other features.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/cobra-green_1_3471714a-d7ef-452e-9569-5a1c1841a972_360x.png?v=1674640",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/cobra-desktop-01_23e99cf4-3f3a-435d-b064-58f9d19bab67.png?v=1694005269",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":11,
+      "name":"Supernova",
+      "price": 1999,
+      "description":"Fire-Boltt Supernova with sharp 45.2mm (1.78) AMOLED display smartwatch, Bluetooth calling, voice assistant, 123 sports modes, an inbuilt mic & speaker, and inbuilt games",
+      "images":"https://www.fireboltt.com/cdn/shop/products/supernova-black_1_400x.png?v=1673500420",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/supernova-6.jpg?v=1673513672",
+      "description-2":"Running, cycling, swimming, and more – choose your favourite type of workout from 123 DIFFERENT SPORTS MODES. Supernova will keep a track of every step, every lap, and every stat to help you crush those fitness goals",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":12,
+      "name":"Ninja Call Pro Plus",
+      "price": 1099,
+      "description":"Fire-Boltt Ninja Call Pro Plus with largest 46mm (1.83 inch) display, Bluetooth calling, 100+ sports mode and more.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/ninja-call-pro-plus-black_1_400x.png?v=1669011715",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/ninja-call-pro-plus_4.png?v=1669013468",
+      "description-2":"Running, cycling, swimming, and more – choose your favourite workout from 100+ different sports modes. The Ninja Call Pro is here to keep a track of every step, every lap, and every stat to help you crush those fitness goals.",
+      "rating":4.5
+
+
+
+    },
+    {
+      "id":13,
+      "name":"Ultimate",
+      "price": 1599,
+      "description":"Fire-Boltt Ultimate features stainless steel design, a 1.39 HD Display- Bluetooth calling multiple -sports modes inbuilt -games and much more",
+      "images":"https://www.fireboltt.com/cdn/shop/files/ultimate-black_1_400x.png?v=1683028277",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/ultimate-desktop-launch-page_1.jpg?v=1683025655",
+      "description-2":"",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":14,
+      "name":"Vogue",
+      "price": 1999,
+      "description":"Rediscover your style with Vogue’s stainless steel design, a stunning 52mm (2.05”) HD display with 428*518 pixels resolution, IP68 water resistance, and wireless charging.",
+      "images":"https://www.fireboltt.com/cdn/shop/files/BackRef.48_360x.png?v=1692796390",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/vogue-desktop-_3.jpg?v=1693985477",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":15,
+      "name":"Hunter",
+      "price": 1999,
+      "description":"Fire-Boltt Hunter features a 51mm (2.01) HD Display- Bluetooth calling- 120+ sports modes-voice assistant-IP67 water resistance- and more.",
+      "images":"https://www.fireboltt.com/cdn/shop/files/hunter-dark-blue_1_360x.png?v=1683616948",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/hunter-desktop-2.jpg?v=1694025334",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":16,
+      "name":"Ring",
+      "price": 1599,
+      "description":"Now, manage all your communication with your Fire-Boltt Smartwatch featuring Bluetooth Calling with an inbuilt mic and speaker. Make, receive or reject calls straight from your wrist. Seize the view with a 44.5mm (1.75'' inch) Full Touch, High-Definition Large Display.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/1_400x.png?v=1638005392",
+      "description-image":"https://www.youtube.com/watch?v=hmKEBWmCEB",
+      "description-2":"",
+      "rating":4.7
+
+
+
+    },
+    {
+      "id":17,
+      "name":"Blizzard",
+      "price": 2499,
+      "description":"Introducing the epitome of luxury and technology - our state-of-the-art smartwatch. Crafted with precision and care, this watch is the ultimate companion for the modern-day individual who values style and sophistication, without sacrificing functionality.",
+      "images":"https://www.fireboltt.com/cdn/shop/products/gold-3_360x.png?v=1686119884",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/blizzard-desktop-1.jpg?v=1693939432",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":18,
+      "name":"Rocket",
+      "price":2399,
+      "description":"Shop for the Fire-Boltt Rocket smartwatch with a 33mm (1.3) HD round full touch display- Bluetooth calling 100+ sports modes- voice assistant- SpO2 monitoring- and smart notifications",
+      "images":"https://www.fireboltt.com/cdn/shop/products/rocket-grey_1_360x.png?v=1671794798",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/rocket-5-desktop_9dac5640-a827-488f-aafd-f8f5d2c5f525.jpg?v=1672116883",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    },
+    {
+      "id":19,
+      "name":"Tank",
+      "price": 1499,
+      "description":"Shop for Fire-Boltt Tank Smartwatch with Bluetooth Calling, 46.5mm (1.85″) inch Display, 123 sports mode, SpO2 Monitoring, Voice Assistant, and IP67 water resistant",
+      "images":"https://www.fireboltt.com/cdn/shop/files/7_1_360x.png?v=1692182921",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/Artboard_1_29_1e37b0e1-5695-4f5b-b252-8d061de277fd.jpg?v=1671182245",
+      "description-2":"",  
+       "rating":4.7
+
+
+
+    },
+    {
+      "id":20,
+      "name":"Combat",
+      "price": 1499,
+      "description":"Fire-Boltt Combat is a sporty & rugged smartwatch with a 1.95 HD display- BT calling- 150+ Sports Modes- voice assistant- long battery life- military grade toughness- health suite and much more.",
+      "images":"https://www.fireboltt.com/cdn/shop/files/combat-camo-black_1_360x.png?v=1686202135",
+      "description-image":"https://cdn.shopify.com/s/files/1/0137/0292/2286/files/combat-desktop_5_df2bac90-2e17-4479-a289-a13a96ccb8c7.jpg?v=1686204325",
+      "description-2":"",
+      "rating":4.8
+
+
+
+    }
+  ],
+  "cart":[]
+
+  
+
+}
